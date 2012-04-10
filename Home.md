@@ -1,1 +1,1 @@
-Welcome to the jquery-shoutcast wiki!
+[Easy Setup Guide](https://github.com/Wavestreaming/jquery-shoutcast/wiki/Easy-Setup)
