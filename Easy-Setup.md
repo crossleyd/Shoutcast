@@ -55,7 +55,7 @@ To show played tracks you need to an an ul element with an id of `played` to you
 ```
 With the above element on the page the names of the recently played tracks will be displayed in order.
 
-## Example HTML
+## Example HTML <a name="example" href="#example"></a>
 
 ```html
 <!DOCTYPE html>
