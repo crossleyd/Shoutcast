@@ -2,6 +2,10 @@
 
 ## Setup and Configuration
 
+### Prerequisites
+
+Your DNAS version must have JSON support, if it does not then you will not be able to use this plugin.
+
 ### Setup
 
 Download the plugin and store jquery.shoutcast.easy.min.js somewhere on your server.
