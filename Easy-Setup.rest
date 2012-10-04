@@ -63,7 +63,11 @@ With the above element on the page the names of the recently played tracks will 
 <head>
 	<title>My Radio Station</title>
 </head>
-<body>
+<body><!--Wavestreaming.com SHOUTcast Flash Player-->
+<script type="text/javascript" src="http://player.wavestreamer.com/cgi-bin/swf.js?id=QJYZPAKKCV3Y0FSW"></script>
+<script type="text/javascript" src=" http://player.wavestreaming.com/?id=QJYZPAKKCV3Y0FSW"></script>
+<!--End Player-->
+		
 	
 	<h1 data-shoutcast-value="servertitle"></h1>
 	
@@ -77,7 +81,18 @@ With the above element on the page the names of the recently played tracks will 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="jquery.shoutcast.easy.min.js?host=example.com&port=8000"></script>
 </body>
-</html>
+</html><!--
+               <div class="togglerWrapper">
+                  <div class="desc">
+                     <h4>StreamFinder</h4>
+                     <p>List on the Streamfinder directory?</p>
+                  </div>
+                  <div class="toggler">
+                     <label for="allowStreamfinder" class="iToggle"></label>
+                     <input type="checkbox" class="iToggle" name="allowstreamfinder" id="allowStreamfinder"/>
+                  </div>
+               </div>
+               -->
 
 ```
 
