@@ -11,18 +11,13 @@ Download the plugin and store jquery.shoutcast.easy.min.js somewhere on your ser
 Add the following line of code just before the `</body>` tag:
 
 ```html 
+<script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"><\/script>')</script>
 <script src="jquery.shoutcast.easy.min.js?host=example.com&port=8000"></script>
-```
-
-If you do not have jQuery already on the page then add this line of code just before the first line of code:
-
-```html 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 ```
 
 ###Configuration
 
-In the first script tag you need to edit example.com to be your host and also edit the port if necessary, this is the minimum configration that is required by the plugin, there are more options which can be found here
+In the second script tag you need to edit example.com to be your host and also edit the port if necessary, this is the minimum configration that is required by the plugin, there are more options which can be found here
 
 ###Usage
 Once you have configured the plugin you will need to add various elements to your page.
